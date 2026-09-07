@@ -16,6 +16,7 @@ h2 { margin-top: 44px; }
 .card small, .muted { color: var(--muted); }
 .status { display: inline-block; margin-top: 14px; padding: 5px 11px; border-radius: 99px; background: var(--surface); font-size: .82rem; font-weight: 700; }
 .status.available { color: #176b43; background: #e7f5ed; }
+.status-context { margin: 18px 0 0; padding: 14px 16px; border-left: 3px solid var(--accent); background: var(--surface); color: var(--muted); }
 .columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; }
 a { color: #196da8; }
 main p a { margin-right: 18px; }
