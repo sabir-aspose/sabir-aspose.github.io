@@ -8,7 +8,7 @@ main { min-height: calc(100vh - 160px); padding: 72px 0; }
 h1 { max-width: 850px; margin: 0 0 18px; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.02; letter-spacing: -.04em; }
 h2 { margin-top: 44px; }
 .eyebrow { color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .14em; }
-.lead { max-width: 760px; color: var(--muted); font-size: 1.22rem; }
+.lead { max-width: 100%; color: var(--muted); font-size: 1.22rem; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 36px; }
 .card { display: flex; flex-direction: column; gap: 12px; min-height: 112px; padding: 22px; color: var(--ink); text-decoration: none; border: 1px solid var(--line); border-radius: 12px; background: white; }
 .card:hover { border-color: var(--accent); transform: translateY(-2px); }
