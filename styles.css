@@ -5,6 +5,10 @@ body { margin: 0; }
 .catalog-shell header, .catalog-shell main, .catalog-shell footer { width: min(1120px, calc(100% - 40px)); margin: auto; }
 .catalog-shell header { padding: 24px 0; border-bottom: 1px solid var(--line); }
 .catalog-shell .brand { color: var(--ink); font-weight: 750; text-decoration: none; }
+.catalog-shell .breadcrumbs { margin-top: 10px; font-size: .9rem; }
+.catalog-shell .breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 6px 10px; margin: 0; padding: 0; list-style: none; }
+.catalog-shell .breadcrumbs li { display: flex; align-items: baseline; gap: 10px; min-width: 0; overflow-wrap: anywhere; }
+.catalog-shell .breadcrumb-separator, .catalog-shell .breadcrumbs [aria-current="page"] { color: var(--muted); }
 .catalog-shell main { min-height: calc(100vh - 160px); padding: 72px 0; }
 .catalog-shell h1 { max-width: 850px; margin: 0 0 18px; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.02; letter-spacing: -.04em; }
 .catalog-shell h2 { margin-top: 44px; }
